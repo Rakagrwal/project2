@@ -1,0 +1,9 @@
+---
+- name: Ansible playbook to install docker package
+  hosts: testservers
+  become: yes
+  tasks:
+    - name: Install docker package
+      apt: 
+        name: docker
+        state: present
