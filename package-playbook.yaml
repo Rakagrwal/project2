@@ -1,5 +1,5 @@
 ---
-- name: Ansible playbook to install apache2 package
+- name: Ansible playbook to install docker package
   hosts: testservers
   become: yes
   tasks:
