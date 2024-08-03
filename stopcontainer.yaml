@@ -1,0 +1,2 @@
+- name: Execute the command in remote shell;
+  shell: removecontainer.sh >> removecontainer.txt
